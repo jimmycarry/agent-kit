@@ -1,0 +1,20 @@
+{
+  "name": "agent-kit",
+  "version": "1.0.0",
+  "description": "A CLI scaffolding tool built with Node.js, React, and Ink",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --recursive --parallel build",
+    "clean": "pnpm --recursive --parallel clean",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "typecheck": "pnpm --recursive --parallel typecheck"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@agent-kit/ui",
+  "version": "1.0.0",
+  "description": "Agent Kit UI components using React and Ink",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "ink": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "rimraf": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "ink": "^4.4.1"
+  }
+}
